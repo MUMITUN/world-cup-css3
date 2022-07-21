@@ -1,0 +1,259 @@
+.top-banner{
+    padding: 10px 70px 0px 70px;
+    background-color: black;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px ;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap:15px;
+
+
+}
+h1{
+    font-size: 3em;
+}
+.box-1{
+    display: flex;
+}
+/* small device*/
+@media screen and (max-width: 576px){
+
+    .box-1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box-1 .split{
+        width: 100%;
+    }
+}
+
+.video{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: auto;
+}
+.container{
+    display: flex;
+    padding:20px 20px;
+    gap: 15px;
+  
+    
+}
+.video img{
+    width:100%;
+    display: flex;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+
+
+  }
+.container{
+    display: flex;
+}
+@media screen and (max-width: 576px){
+
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container .box-2{
+        width: 100%;
+        
+    }
+}
+/* medium device*/
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+    .container{
+
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container .box-2{
+        width: 100%;
+        
+    }
+}
+
+
+
+.fa-clock{
+    color: gray;
+    font-size: small;
+    font-weight: 500;
+    
+}
+.fa-comment-dots{
+    color: gray;
+    font-size: small;
+    font-weight: 400;
+}
+#box-2{
+    height: 150px;
+   border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    align-items: center;
+    gap:15px;
+    
+    
+}
+
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(RED, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+ 
+
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+}
+#box-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; 
+    gap: 15px;
+
+}
+#box-2{
+    background-color: black;
+    padding: 10px 30px;
+    width:auto;
+
+}
+
+.Button-3{
+    text-decoration: none;
+    background-image: linear-gradient(RED, tomato);
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+ 
+}
+.move{
+    padding-left: 10px;
+}
+.Button-1{
+    text-decoration: none;
+    background-image: linear-gradient(white, white);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+   
+
+}
+.Button-2{
+    text-decoration: none;
+    background-image: linear-gradient(white, white);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+   
+
+}
+
+/* small device*/
+@media screen and (max-width: 576px){
+
+    #box-3{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* medium device*/
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+    #box-3{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+.foot{
+     display: flex;
+     flex-direction: column;
+     padding: 40px 40px;
+     gap:20px;
+    font-size: 20px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+}
+
+  
+.line {
+            border-top: 1px solid rgb(153, 150, 150);
+            margin-top: 2px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+
+
+}
+
+.fa-facebook-square{
+    color: gray;
+        
+
+}
+.fa-whatsapp{
+    color: gray;
+}
+.fa-instagram{
+    color: gray;
+
+}
+.icon-foot{
+    display: flex;
+    padding: 0 40%;
+}
+.f1{
+    
+    display: flex;
+    margin-right: 20px;
+    padding: 0 20px;
+
+}
+
+nav ul{
+    display:flex;
+    padding: 0 20%;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+    
+}
+nav li:hover{
+    background-color: rgb(228, 225, 225);
+}
+
+nav li a{
+    text-decoration: none;
+    color:rgb(165, 162, 162);
+    font-size: 15px
+
+}

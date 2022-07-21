@@ -1,0 +1,440 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World cup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/52bf2e93dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nav.css">
+
+<style>
+.top-banner{
+    padding: 10px 70px 0px 70px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px ;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.center2{
+    display: none;
+}
+h1{
+    font-size: 3em;
+}
+.box-1{
+    display: flex;
+}
+/* small device*/
+@media screen and (max-width: 576px){
+
+    .box-1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box-1 .split{
+        width: 100%;
+    }
+    .center2{
+        display: none;
+    }
+}
+
+.video{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: auto;
+}
+
+.video img{
+    padding: 10px 10px;
+}
+.container{
+    display: flex;
+    padding:20px 70px;
+    gap: 15px;
+  
+    
+}
+.container{
+    display: flex;
+}
+@media screen and (max-width: 576px){
+
+    .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container .box-2{
+        width: 100%;
+    }
+    .center2{
+        display: none;
+    }
+}
+/* medium device*/
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+    .container{
+
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container .box-2{
+        width: 100%;
+    }
+   
+}
+
+    
+.fa-clock{
+    color: gray;
+    font-size: small;
+    font-weight: 500;
+        
+ }
+.fa-comment-dots{
+    color: gray;
+    font-size: small;
+    font-weight: 400;
+}
+ #box-2{
+        height: 150px;
+       border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+        align-items: center;
+        gap:15px;
+        
+        
+    }
+    
+    
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(RED, tomato);
+        padding: 10px 40px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+     
+    }
+    
+    h1{
+        font-size: 50px;
+        color: aliceblue;
+        font-weight: 700;
+        text-align: center;
+    }
+    #box-3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ; 
+        gap: 15px;
+    
+    }
+    #box-3 .center2{
+        display: none;
+    }
+
+    #box-2{
+        background-color: black;
+        padding: 10px 30px;
+        width:auto;
+    
+    }
+    
+.Button-3{
+    text-decoration: none;
+    background-image: linear-gradient(RED, tomato);
+    padding: 10px 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+     
+    }
+.center2{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Button-4{
+    text-decoration: none;
+    background-image: linear-gradient(RED, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+    .move{
+        padding-left: 10px;
+    }
+    .Button-1{
+        text-decoration: none;
+        background-image: linear-gradient(white, white);
+        padding: 10px 10px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+       
+    
+    }
+    .Button-2{
+        text-decoration: none;
+        background-image: linear-gradient(white, white);
+        padding: 10px 40px;
+        border-radius: 10px;
+        color: white;
+        font-weight: 700;
+       
+    
+    }
+    
+    /* small device*/
+    @media only screen and (max-width: 576px){
+    
+        #box-3{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .center2{
+        display: none;
+    }
+
+    }
+    
+    /* medium device*/
+    @media only screen and (min-width: 577px) and (max-width: 992px){
+    
+        #box-3{
+            grid-template-columns: repeat(2,1fr);
+        }
+
+    .center2{
+        visibility: visible;
+    }
+    
+    }
+
+    .top-line{
+        border-top: 20px;
+        border-color: aliceblue;
+    }
+.foot{
+     display: flex;
+     flex-direction: column;
+     padding: 40px 40px;
+     gap:20px;
+    font-size: 20px;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+}
+
+  
+.line {
+        border-top: 1px solid rgb(153, 150, 150);
+        margin-top: 2px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+            
+
+
+}
+
+.fa-facebook-square{
+    color: gray;
+        
+
+}
+.fa-whatsapp{
+    color: gray;
+}
+.fa-instagram{
+    color: gray;
+
+}
+.icon-foot{
+    display: flex;
+    padding: 0 40%;
+}
+.f1{
+    
+    display: flex;
+    margin-right: 20px;
+    padding: 0 20px;
+
+}
+
+nav ul{
+    display:flex;
+    padding: 0 20%;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 10px;
+    
+}
+nav li:hover{
+    background-color: rgb(228, 225, 225);
+}
+
+nav li a{
+    text-decoration: none;
+    color:rgb(165, 162, 162);
+    font-size: 15px
+
+}
+</style>
+
+</head>
+ 
+<body>
+     <section class= "top-banner">
+            
+        <div class="box-1">
+            <div class="split">
+                <h1 style="color: white">The Greatest show on the earth</h1>
+                <p style="color:aliceblue">Contrary to popular belief,Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,making it over 2000 years old.</p>
+                 <a class= "link-button" target="_blank" href=""> Watch Live  <i class="fa-solid fa-angle-right"> </i></a>
+        
+            </div>   
+            
+            <div class="split">
+            
+                <img src="images/Banner Image.png" alt="">
+            
+            </div >
+        </div>
+            
+    </section>
+        
+
+    <section>
+
+    <div class="container">
+        <div id="box-2" class="box-2">
+            <a class= "Button-3" target="_blank" href=""> Upcomming match</a></button>
+            <a style="color:black" class= "Button-1" target="_blank" href="match.html"> All Group</a></button>
+            <a style="color:black" class= "Button-2" target="_blank" href=""> Blog</a></button>
+           
+            
+        </div>
+        
+        <div id="box-3" class="box-2">
+            <div class="video">
+                <div class="center">
+
+                    <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+                </div>
+                    <div class="move">
+                        <h3>Germany VS France</h3>
+                        <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                        <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots"> 23</i></p>
+                    </div>
+            </div>
+            
+            <div class="video">
+                <div class="center">
+
+                    <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+                </div>
+                    <div class="move">
+                        <h3>Germany VS France</h3>
+                        <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                        <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots"> 23</i> </p>
+                    </div>
+            </div>
+            
+            <div class="video">
+                <div class="center">
+
+                    <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+                </div>
+                    <div class="move">
+                        <h3>Germany VS France</h3>
+                        <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                        <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots"> 23</i> </p>
+                    </div>
+            </div>
+            
+            <div class="video">
+                <div class="center">
+
+                    <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+                </div>
+                    <div class="move">
+                        <h3>Germany VS France</h3>
+                        <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                        <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots"> 23</i></p>
+                    </div>
+            </div>
+            
+            <div class="video">
+                <div class="center">
+
+                    <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+                </div>
+                    <div class="move">
+                        <h3>Germany VS France</h3>
+                        <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                        <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots">  23</i></p>
+                    </div>
+            </div>
+            
+            <div class="video">
+                <div class="center">
+
+                <img src="images/Flag.png" alt=""> VS <img src="images/germany Flag.png" alt="">
+            </div>
+                <div class="move">
+                    <h3>Germany VS France</h3>
+                    <p style="color:gray">April 01, 2023, 1.00 AM, </p>
+                    <p><i class="fa-solid fa-clock">  10h</i>  <i class="fa-solid fa-comment-dots">  23</i></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="center2">
+             <a class= "Button-4" target="_blank" href=""> view all</a></button>
+        </div>
+    </section>
+</body>
+<footer class="foot">
+    <h1 class="bold">Goal</h1>
+    <div class="line"></div>
+    <nav>
+        <ul>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Terms of Service.html">Terms of Service</a></li>
+            <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+            <li><a href="Privacy Setting">Privacy Setting</a></li>
+            <li><a href="Goal App">Goal App</a></li>
+            <li><a href="Goal Live">Goal Live</a></li>
+        </ul>
+    </nav>
+    <div class="icon-foot">
+
+    <p class="f1"><i class="fa-brands fa-facebook-square"></i></p>
+    <p class="f1"><i class="fa-brands fa-whatsapp"> </i></p>
+    <p class="f1"><i class="fa-brands fa-instagram"> </i> </p>
+    </div>
+</footer>
